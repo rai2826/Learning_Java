@@ -8,6 +8,8 @@ public class TakingInputFromKeyboardString {
 
         System.out.println("Hello Welcome to Java Learning today");
 
+
+        // Use the Scanner class to take input
         Scanner sc= new Scanner(System.in);
 
         System.out.println("Please enter your First name ");
