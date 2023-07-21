@@ -16,16 +16,9 @@ public class SwitchLearning {
 
 
         switch (age) {
-            case (60):
-                System.out.println("Retired");
-                break;
-            case (50):
-                System.out.println("Enjoy your life");
-                break;
-            default:
-                System.out.println("work hard");
-
-
+            case (60) -> System.out.println("Retired");
+            case (50) -> System.out.println("Enjoy your life");
+            default -> System.out.println("work hard");
         }
     }
 }
