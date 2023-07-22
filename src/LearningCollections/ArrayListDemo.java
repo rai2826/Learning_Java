@@ -8,7 +8,7 @@ public class ArrayListDemo {
     public static void main(String[] args) {
 
 
-        // ArrayList is a class implementing List interface
+        // "ArrayList" is a class implementing "List" interface
         //declaring an array list
 
         ArrayList arrayList = new ArrayList();
