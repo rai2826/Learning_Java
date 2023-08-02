@@ -14,5 +14,7 @@ public class arraysum {
 
         }
         System.out.println(sum);
+
+        System.out.println("Thank you");
     }
 }
