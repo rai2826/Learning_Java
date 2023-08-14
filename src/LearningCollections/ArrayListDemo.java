@@ -47,6 +47,16 @@ public class ArrayListDemo {
 
         }
 
+        System.out.println("==============================================================================");
+        ArrayList<String> SArrList=new ArrayList<>();
 
+        SArrList.add("Gaurav");
+        SArrList.add("Rai");
+
+        System.out.println(SArrList.size());
+
+        // Print each element of ArrayList using Lambda Stream
+
+        SArrList.stream().forEach(EleOfAList -> System.out.println(EleOfAList));
     }
 }
