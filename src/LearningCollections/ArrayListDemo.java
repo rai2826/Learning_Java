@@ -58,5 +58,7 @@ public class ArrayListDemo {
         // Print each element of ArrayList using Lambda Stream
 
         SArrList.stream().forEach(EleOfAList -> System.out.println(EleOfAList));
+
+        System.out.println(SArrList.contains("gaurav"));
     }
 }
